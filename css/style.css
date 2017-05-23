@@ -1,0 +1,107 @@
+.navbar {
+    background-color: #007806;
+    color: #fff;
+    border-color: transparent;
+    z-index: 10;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
+.dropdown-toggle {
+    color: #fff;
+}
+
+
+/*header style*/
+
+.page-header {
+    border-bottom: 0px;
+}
+
+
+/*Slider Style*/
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner>.item>img {
+    margin: auto;
+}
+
+h1,
+h2 {
+    text-shadow: 1px 1px 1px grey;
+    display: inline-block;
+}
+
+h1 {margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color: black;
+    text-shadow: 1px 1px 1px green;
+}
+
+h2 {
+    text-shadow: 0.5px 0.5px 0.5px green;
+}
+
+#about-figure a {
+    height: 500px;
+    width: 500px;
+}
+
+
+/*O Nas style start*/
+
+.row {text-align: center;
+    display: inline-block;
+}
+
+.parallax {
+     /* The image used */
+    background-image: url(../img/dogs-2195708_640.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thumbnail{
+    background-color: darkgreen;
+}
+
+
+.thumbnail .team img{
+    transition: 1s;
+}
+.thumbnail .team img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.team{margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 283.33px;
+    overflow: hidden;
+}
