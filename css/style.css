@@ -59,6 +59,9 @@ figcaption {
 
 /*header style*/
 
+
+
+
 .page-header {
     border-bottom: 0px;
 }
@@ -161,4 +164,8 @@ figcaption {
 
 .thumbnail color {
     background-color: black;
+}
+
+#div1{
+    display: none;
 }

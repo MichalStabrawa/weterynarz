@@ -28,8 +28,10 @@ var menuHeight = $('#main-nav').height();
 
 });
 
-$('.carousel').carousel({
-  interval: 2000
-})
-
-
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeToggle(3000);
+     //   $("#div2").fadeToggle("slow");
+      //  $("#div3").fadeToggle(3000);
+    });
+});
