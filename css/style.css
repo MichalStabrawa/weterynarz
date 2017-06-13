@@ -100,7 +100,7 @@ figcaption {
 
 /*O Nas style start*/
 
-#about-figure img {
+#about-figure img {width: 100%;
     border-radius: 5px;
 }
 
