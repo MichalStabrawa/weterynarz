@@ -208,3 +208,30 @@ figcaption {font-size: 1.5em;
 #div1 figure img {
     width: 100%;
 }
+
+/*Section DRIVE*****************************************************************************************************************************************************************************************************8*/
+
+#drive h3 {
+    border-bottom: 1px solid black;
+    margin-top: 0px;
+}
+
+#drive iframe {
+    width: 100%;
+}
+
+#drive img{
+    width: 100%;
+    
+    
+}
+
+ #drive i {
+    
+margin-top: 10px;
+}
+
+#drive h4 i {color: #fff;
+    background-color: black;
+    padding: 10px;
+}
