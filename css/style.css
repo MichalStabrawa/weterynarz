@@ -226,12 +226,19 @@ figcaption {font-size: 1.5em;
     
 }
 
+#drive #logo-drive{
+    width: 30%;
+   
+}
+
  #drive i {
     
 margin-top: 10px;
 }
 
-#drive h4 i {color: #fff;
+#drive h4  {color: #fff;
     background-color: black;
     padding: 10px;
+    line-height: 66px;
+    margin-bottom: 0px;
 }
