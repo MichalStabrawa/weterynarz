@@ -31,6 +31,10 @@ p:not(.adress-time) {
    
 }
 
+.btn{
+    margin: 10px;
+}
+
 
 /*Navbar Style*/
 
@@ -188,12 +192,16 @@ figcaption {
 .img-circle img {
     width: 50%;
 }
-
+/*Oferd SECTION*************************************************************************************************************************************************************************************************/
 .oferd .thumbnail img {
     width: 200px;
     height: 200px;
     ;
     background-color: black;
+}
+
+ .oferd figcaption {
+    padding-bottom: 50px;
 }
 
 #div1 {
@@ -257,7 +265,12 @@ footer h3{
     border-bottom: 1px solid #fff;
 }
 
-#social-footer {
+footer .row h5 {
+    text-align: center;
+    color: darkgray;
+}
+
+#social-footer {margin-bottom: 0px;
     text-align: center;
 }
 
@@ -271,4 +284,15 @@ footer #social-footer .fa:hover{
     color: greenyellow;
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+/*Author*******************************************************************************************************************************************************************************************88*/
+
+
+#author p {margin-bottom: 0px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: black;
+    opacity: 0.9;
+    color: grey;
 }
