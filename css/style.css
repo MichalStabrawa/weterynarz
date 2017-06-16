@@ -256,3 +256,19 @@ footer figure img {
 footer h3{
     border-bottom: 1px solid #fff;
 }
+
+#social-footer {
+    text-align: center;
+}
+
+footer #social-footer .fa {
+    color: darkgrey;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+footer #social-footer .fa:hover{
+    color: greenyellow;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
