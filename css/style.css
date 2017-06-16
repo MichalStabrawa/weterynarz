@@ -26,6 +26,11 @@ h2 {
     ;
 }
 
+p:not(.adress-time) {
+    font-size: 18px;
+   
+}
+
 
 /*Navbar Style*/
 
@@ -48,15 +53,12 @@ h2 {
     background-color: aqua;
 }
 
-p {font-size: 18px;
-    text-align: justify;
-}
-
 .dropdown-toggle {
     color: #fff;
 }
 
-figcaption {font-size: 1.5em;
+figcaption {
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -115,11 +117,10 @@ figcaption {font-size: 1.5em;
     width: 100%;
 }
 
-
-
-.parallax {position: relative;
+.parallax {
+    position: relative;
     /* The image used */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/dogs-2195708_640.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/dogs-2195708_640.jpg);
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -131,15 +132,14 @@ figcaption {font-size: 1.5em;
 }
 
 .parallax-info {
- 
-     position: absolute;
-            top: 50%;
-           left: 50%;
-            transform: translateY(-50%,-50%);
-            left: 0;
-            right: 0;
-            left: 10px;
-            color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    left: 0;
+    right: 0;
+    left: 10px;
+    color: #fff;
 }
 
 .parallax-info p {
@@ -149,10 +149,9 @@ figcaption {font-size: 1.5em;
 }
 
 
-
 /*Section Oferta Style****************************************************************************************************************************************************************************************************/
 
-.thumbnail{
+.thumbnail {
     border: 0px;
 }
 
@@ -190,9 +189,10 @@ figcaption {font-size: 1.5em;
     width: 50%;
 }
 
-.oferd .thumbnail img  {width:200px;
-    
-    height: 200px;;
+.oferd .thumbnail img {
+    width: 200px;
+    height: 200px;
+    ;
     background-color: black;
 }
 
@@ -209,6 +209,7 @@ figcaption {font-size: 1.5em;
     width: 100%;
 }
 
+
 /*Section DRIVE*****************************************************************************************************************************************************************************************************8*/
 
 #drive h3 {
@@ -220,23 +221,20 @@ figcaption {font-size: 1.5em;
     width: 100%;
 }
 
-#drive img{
+#drive img {
     width: 100%;
-    
-    
 }
 
-#drive #logo-drive{
+#drive #logo-drive {
     width: 30%;
-   
 }
 
- #drive i {
-    
-margin-top: 10px;
+#drive i {
+    margin-top: 10px;
 }
 
-#drive h4  {color: #fff;
+#drive h4 {
+    color: #fff;
     background-color: black;
     padding: 10px;
     line-height: 66px;
@@ -244,13 +242,17 @@ margin-top: 10px;
 }
 
 
-
-
 /*Footer*****************************************************************************************************************************************************************************************************/
 
-footer{background-color:black;
-color: #fff;}
+footer {
+    background-color: black;
+    color: #fff;
+}
 
 footer figure img {
     width: 100%;
+}
+
+footer h3{
+    border-bottom: 1px solid #fff;
 }
