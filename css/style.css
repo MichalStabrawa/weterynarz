@@ -23,7 +23,7 @@ h2 {
 
 .row {
     margin-bottom: 40px;
-    ;
+    
 }
 
 p:not(.adress-time) {
@@ -31,8 +31,11 @@ p:not(.adress-time) {
    
 }
 
-.btn{
+.btn-primary.active {
+  border: 1px solid green;
+  
     margin: 10px;
+    background-color: green;
 }
 
 
@@ -215,6 +218,7 @@ figcaption {
 
 #div1 figure img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 
