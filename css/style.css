@@ -257,8 +257,10 @@ figcaption {
 /*Footer*****************************************************************************************************************************************************************************************************/
 
 footer {
-    background-color: black;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/kotek.jpg);
     color: #fff;
+    background-size: cover;
+    background-position: center;
 }
 
 footer figure img {
@@ -289,6 +291,16 @@ footer #social-footer .fa:hover{
     transition: 0.5s;
     transform: scale(1.1);
 }
+
+footer address{font-size: 1.3em;
+    padding: 5px;
+}
+
+footer address a {
+    color: #fff;
+}
+
+
 
 /*Author*******************************************************************************************************************************************************************************************88*/
 
