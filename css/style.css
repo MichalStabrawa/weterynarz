@@ -115,6 +115,7 @@ figcaption {
 /*O Nas style start*/
 
 #about-figure img {
+    margin-bottom: 10px;
     width: 100%;
     border-radius: 5px;
 }
@@ -149,7 +150,7 @@ figcaption {
     color: #fff;
 }
 
-.parallax-info p {
+.parallax-info p {color: #fff;
     text-align: center;
     font-size: 1.8em;
     font-style: italic;
@@ -194,6 +195,25 @@ figcaption {
 
 .img-circle img {
     width: 50%;
+}
+
+
+/*Team Section*************************************************************************************************************************************************/
+
+
+#team{
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/puppy-919213_1280.jpg);
+    width: 100%;
+    height: 500px;
+     min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
 }
 /*Oferd SECTION*************************************************************************************************************************************************************************************************/
 .oferd .thumbnail img {
