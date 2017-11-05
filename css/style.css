@@ -102,9 +102,13 @@ figcaption {
     text-align: center;
 }
 
-#social .row a .fa {
+#social .row a .fa {box-shadow: 0px 18px 36px -7px rgba(0,0,0,0.75);
     color: black;
     margin: 5px;
+    
+ 
+   border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #social .row a .fa:hover {
@@ -161,10 +165,12 @@ figcaption {
 
 .thumbnail {
     border: 0px;
+    box-shadow: 0px 18px 36px -7px rgba(0,0,0,0.75);
 }
 
 .thumbnail .team img {
     transition: 1s;
+    
 }
 
 .thumbnail .team img:hover {
@@ -175,7 +181,7 @@ figcaption {
 .team {
     margin-right: auto;
     margin-left: auto;
-    width: 300px;
+    width:100%;
     height: 283.33px;
     overflow: hidden;
 }

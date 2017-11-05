@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
 
-
+/*nav function*/
 $(function () {
     var okno = $(window);
     var menu = $('#main-nav');
