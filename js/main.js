@@ -46,3 +46,23 @@ var menuHeight = $('#main-nav').height();
 
 
 });
+
+
+/*myBtn scrollTop*/
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("end").style.display = "block";
+    } else {
+        document.getElementById("end").style.display = "none";
+    }
+}
+
+
+    $('#end').on('click',function(){
+    $('html, body').animate({
+        scrollTop: $('header').offset().top
+    }, 1000);
+})
