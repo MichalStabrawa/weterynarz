@@ -17,23 +17,24 @@ h1 {
 }
 
 h2 {
+    width: 100%;
+    color: #fff;
+   background: radial-gradient(ellipse at center, #008a00 -1%,#b4ddb4 0%,#83c783 0%,#008a00 0%,#008a00 2%,#005700 100%,#52b152 100%,#002400 100%,#005700 101%); 
     margin-bottom: 40px;
     text-shadow: 0.5px 0.5px 0.5px green;
+    padding: 5px;
 }
 
 .row {
     margin-bottom: 40px;
-    
 }
 
 p:not(.adress-time) {
     font-size: 18px;
-   
 }
 
 .btn-primary.active {
-  border: 1px solid green;
-  
+    border: 1px solid green;
     margin: 10px;
     background-color: green;
 }
@@ -46,7 +47,7 @@ p:not(.adress-time) {
     color: #fff;
     border-color: transparent;
     z-index: 10;
-    border-radius:0px;
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -55,10 +56,22 @@ p:not(.adress-time) {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    font-size:1.6rem;
+}
+.navbar-default .navbar-nav>li>a:active{
+    color:orangered;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color:green;
+}
+
+.navbar-default .navbar-nav>li {
+    border-right: 1px solid green;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: greenyellow;
+    background: radial-gradient(ellipse at center, #008a00 -1%,#b4ddb4 0%,#83c783 0%,#008a00 0%,#008a00 2%,#005700 100%,#52b152 100%,#002400 100%,#005700 101%);
+    color:#fff;
 }
 
 .dropdown-toggle {
@@ -80,7 +93,6 @@ figcaption {
 
 /*Slider Style*/
 
-
 .carousel-control.left {
     background-image: none;
 }
@@ -93,20 +105,21 @@ figcaption {
     margin: auto;
 }
 
-.btn-header{
-    border-radius:12px;
-    background:transparent;
-    color:black;
+.btn-header {
+    border-radius: 12px;
+    background: transparent;
+    color: black;
     width: 200px;
     height: 50px;
-    border:1px solid black;
-    
+    border: 1px solid black;
 }
-.btn-header:hover{
+
+.btn-header:hover {
     background-color: forestgreen;
-    color:#fff;
-    transition:1s;
+    color: #fff;
+    transition: 1s;
 }
+
 
 /*Social media style*********************************************************************************************************************************************************************************************************/
 
@@ -118,14 +131,10 @@ figcaption {
     text-align: right;
 }
 
-
-
 #social .row a .fa {
     color: black;
     margin: 5px;
-    
- 
-   border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
@@ -133,15 +142,23 @@ figcaption {
     color: chartreuse;
 }
 
-#phone-header{
+#phone-header {
     text-align: left;
 }
-#phone-header a{
-    font-size:2rem;
+
+#phone-header a {
+    font-size: 2rem;
     text-decoration: none;
-    color:#000;
+    color: #000;
     font-weight: 600;
-    
+}
+
+#social-media .col-logo {
+    text-align: center;
+}
+
+#social-media .logo {
+    width: 180px;
 }
 
 
@@ -177,12 +194,11 @@ figcaption {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
-    
     color: #fff;
 }
 
-.parallax-info p {color: #fff;
+.parallax-info p {
+    color: #fff;
     text-align: center;
     font-size: 1.5rem;
     font-style: italic;
@@ -193,12 +209,12 @@ figcaption {
 
 .thumbnail {
     border: 0px;
-    box-shadow: 0px 18px 36px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 18px 36px -7px rgba(0, 0, 0, 0.75);
 }
 
-.thumbnail .team img {width: 100%;
+.thumbnail .team img {
+    width: 100%;
     transition: 1s;
-    
 }
 
 .thumbnail .team img:hover {
@@ -209,7 +225,7 @@ figcaption {
 .team {
     margin-right: auto;
     margin-left: auto;
-    width:100%;
+    width: 100%;
     height: 283.33px;
     overflow: hidden;
 }
@@ -222,8 +238,6 @@ figcaption {
     transition: 0.5s;
 }
 
-
-
 .img-circle img {
     width: 50%;
 }
@@ -231,22 +245,23 @@ figcaption {
 
 /*Team Section*************************************************************************************************************************************************/
 
-
-#team{
+#team {
     position: relative;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/puppy-919213_1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/puppy-919213_1280.jpg);
     width: 100%;
     height: 500px;
-     min-height: 500px;
+    min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    
 }
+
+
 /*Oferd SECTION*************************************************************************************************************************************************************************************************/
+
 .oferd .thumbnail img {
     width: 200px;
     height: 200px;
@@ -254,7 +269,7 @@ figcaption {
     background-color: black;
 }
 
- .oferd figcaption {
+.oferd figcaption {
     padding-bottom: 50px;
 }
 
@@ -308,7 +323,7 @@ figcaption {
 /*Footer*****************************************************************************************************************************************************************************************************/
 
 footer {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/kotek.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/kotek.jpg);
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -318,7 +333,7 @@ footer figure img {
     width: 100%;
 }
 
-footer h3{
+footer h3 {
     border-bottom: 1px solid #fff;
 }
 
@@ -327,7 +342,8 @@ footer .row h5 {
     color: darkgray;
 }
 
-#social-footer {margin-bottom: 0px;
+#social-footer {
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -337,13 +353,14 @@ footer #social-footer .fa {
     transition: 0.5s;
 }
 
-footer #social-footer .fa:hover{
+footer #social-footer .fa:hover {
     color: greenyellow;
     transition: 0.5s;
     transform: scale(1.1);
 }
 
-footer address{font-size: 1.3em;
+footer address {
+    font-size: 1.3em;
     padding: 5px;
 }
 
@@ -352,11 +369,10 @@ footer address a {
 }
 
 
-
 /*Author*******************************************************************************************************************************************************************************************88*/
 
-
-#author p {margin-bottom: 0px;
+#author p {
+    margin-bottom: 0px;
     padding: 5px;
     font-size: 12px;
     background-color: black;
@@ -364,17 +380,18 @@ footer address a {
     color: grey;
 }
 
-#end{position: fixed;
+#end {
+    position: fixed;
     z-index: 100;
     bottom: 5%;
     width: 40px;
     height: 40px;
-    background: red;
+    background: grey;
     border-radius: 10px;
     right: 5%;
     line-height: 40px;
     text-align: center;
     opacity: 0.6;
-    color:#fff;
+    color: #fff;
     display: none;
 }
