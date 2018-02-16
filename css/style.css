@@ -19,7 +19,7 @@ h1 {
 h2 {
     width: 100%;
     color: #fff;
-   background: radial-gradient(ellipse at center, #008a00 -1%,#b4ddb4 0%,#83c783 0%,#008a00 0%,#008a00 2%,#005700 100%,#52b152 100%,#002400 100%,#005700 101%); 
+    background: radial-gradient(ellipse at center, #008a00 -1%, #b4ddb4 0%, #83c783 0%, #008a00 0%, #008a00 2%, #005700 100%, #52b152 100%, #002400 100%, #005700 101%);
     margin-bottom: 40px;
     text-shadow: 0.5px 0.5px 0.5px green;
     padding: 5px;
@@ -43,6 +43,8 @@ p:not(.adress-time) {
 /*Navbar Style*/
 
 .navbar {
+    position: sticky;
+    top: 0px;
     background-color: #000;
     color: #fff;
     border-color: transparent;
@@ -56,13 +58,15 @@ p:not(.adress-time) {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
-.navbar-default .navbar-nav>li>a:active{
-    color:orangered;
+
+.navbar-default .navbar-nav>li>a:active {
+    color: orangered;
 }
-.navbar-default .navbar-nav>li>a:focus{
-    color:green;
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: green;
 }
 
 .navbar-default .navbar-nav>li {
@@ -70,8 +74,8 @@ p:not(.adress-time) {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    background: radial-gradient(ellipse at center, #008a00 -1%,#b4ddb4 0%,#83c783 0%,#008a00 0%,#008a00 2%,#005700 100%,#52b152 100%,#002400 100%,#005700 101%);
-    color:#fff;
+    background: radial-gradient(ellipse at center, #008a00 -1%, #b4ddb4 0%, #83c783 0%, #008a00 0%, #008a00 2%, #005700 100%, #52b152 100%, #002400 100%, #005700 101%);
+    color: #fff;
 }
 
 .dropdown-toggle {
