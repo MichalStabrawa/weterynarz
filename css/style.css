@@ -21,7 +21,7 @@ h2 {
     color: #fff;
     background: radial-gradient(ellipse at center, #008a00 -1%, #b4ddb4 0%, #83c783 0%, #008a00 0%, #008a00 2%, #005700 100%, #52b152 100%, #002400 100%, #005700 101%);
     margin-bottom: 40px;
-    text-shadow: 0.5px 0.5px 0.5px green;
+    text-shadow: 0.5px 0.5px 0.5px #000;
     padding: 5px;
 }
 
@@ -37,6 +37,11 @@ p:not(.adress-time) {
     border: 1px solid green;
     margin: 10px;
     background-color: green;
+    transition:0.5s;
+}
+.btn-primary.active:hover{
+    background:#000;
+    transition:0.5s;
 }
 
 
@@ -70,6 +75,7 @@ p:not(.adress-time) {
 }
 
 .navbar-default .navbar-nav>li {
+    width: 140px;
     border-right: 1px solid green;
 }
 
@@ -420,6 +426,9 @@ textarea {
     margin-bottom: 10px;
     border: 1.5px solid #007700;
 }
+.message input[type="text"],input[type="email"]::placeholder{
+    padding-left:2px;
+}
 @media (max-width:576px){
     .message input,
     textarea{
@@ -444,3 +453,43 @@ input[type="submit"]:hover {
     border:0px;
     color:#007500;
 }
+
+/*oferta.html style************************************************************/
+#div2 .icons-header figure{
+    
+   
+text-align: center;
+}
+
+#div2 .icons-header .col-md-6{
+    position:relative;
+    background: #000;
+    color:#000;
+    border:1px solid #fff;
+    padding:10px;
+    transition:0.5s;
+}
+#div2 .icons-header .col-md-6:hover{
+    background: #2B2B2B;
+    
+    transition: 0.5s;
+}
+#div2 .icons-header figcaption{
+    color:green;
+}
+#div2 .icons-header{
+    margin-bottom: 0px;
+}
+
+.vet-offer{
+    margin-top:40px;
+}
+.vet-offer::before{
+    content:"";display:block;
+    border-top:2px solid green;
+    height: 20px;
+    
+}
+
+
+
